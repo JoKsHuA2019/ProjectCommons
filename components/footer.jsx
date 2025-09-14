@@ -107,13 +107,13 @@ export function Footer() {
             <h4 className="font-semibold">Connect</h4>
             <div className="flex space-x-3">
               <button
-                onClick={() => openSocialLink("https://instagram.com/projectcommons")}
+                onClick={() => openSocialLink("https://www.instagram.com/projectcommons.ai/")}
                 className="w-8 h-8 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
               >
                 <Instagram className="h-4 w-4" />
               </button>
               <button
-                onClick={() => openSocialLink("https://discord.gg/projectcommons")}
+                onClick={() => openSocialLink("https://discord.gg/RC97gBEFNp")}
                 className="w-8 h-8 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
               >
                 <MessageCircle className="h-4 w-4" />
