@@ -2,30 +2,30 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Linkedin, Twitter, Mail } from "lucide-react"
+import { Linkedin, Instagram, Mail } from "lucide-react"
 
 export function FoundersSection() {
   const founders = [
     {
-      name: "Alex Chen",
-      title: "Co-Founder & CEO",
-      bio: "AI researcher passionate about democratizing AI education for the next generation of high school students.",
+      name: "Joshua Dong",
+      title: "Co-Founder",
+      bio: "Robotics nerd enthusiastic about spreading AI education for the next generation of high school students. Also loves to eat potatoes.",
       image: "/professional-headshot-of-young-asian-male-ai-resea.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/alexchen",
-        twitter: "https://twitter.com/alexchen",
-        email: "alex@projectcommons.org",
+        linkedin: "https://www.linkedin.com/in/joshua-dong-78b2a92b6/",
+        instagram: "https://www.instagram.com/dogeypatato/",
+        email: "awesomejoshua2009@gmail.com",
       },
     },
     {
-      name: "Sarah Johnson",
-      title: "Co-Founder & CTO",
-      bio: "Tech enthusiast and former engineer who believes in the power of mentorship to unlock human potential in AI.",
+      name: "Josh Karthikeyan",
+      title: "Co-Founder",
+      bio: "A passionate student researcher who believes in free mentoring for all students. Also likes chess a lot.",
       image: "/professional-headshot-of-young-female-tech-leader.jpg",
       social: {
-        linkedin: "https://linkedin.com/in/sarahjohnson",
-        twitter: "https://twitter.com/sarahjohnson",
-        email: "sarah@projectcommons.org",
+        linkedin: "https://www.linkedin.com/in/josh-karthikeyan-a81722311/",
+        instagram: "https://www.instagram.com/k_joosh/",
+        email: "joshkarthik1229@gmail.com",
       },
     },
   ]
@@ -78,9 +78,9 @@ export function FoundersSection() {
                     size="sm"
                     variant="outline"
                     className="p-2 bg-transparent"
-                    onClick={() => openSocialLink(founder.social.twitter)}
+                    onClick={() => openSocialLink(founder.social.instagram)}
                   >
-                    <Twitter className="h-4 w-4" />
+                    <Instagram className="h-4 w-4" />
                   </Button>
                   <Button
                     size="sm"

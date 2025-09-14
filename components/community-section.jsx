@@ -5,11 +5,11 @@ import { Instagram, MessageCircle, Users, Calendar } from "lucide-react"
 
 export function CommunitySection() {
   const openInstagram = () => {
-    window.open("https://instagram.com/projectcommons", "_blank")
+    window.open("https://www.instagram.com/projectcommons.ai/", "_blank")
   }
 
   const openDiscord = () => {
-    window.open("https://discord.gg/projectcommons", "_blank")
+    window.open("https://discord.gg/RC97gBEFNp", "_blank")
   }
 
   const learnMore = () => {
