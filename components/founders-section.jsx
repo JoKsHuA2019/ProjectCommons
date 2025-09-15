@@ -10,7 +10,7 @@ export function FoundersSection() {
       name: "Joshua Dong",
       title: "Co-Founder",
       bio: "Robotics nerd enthusiastic about spreading AI education for the next generation of high school students. Also loves to eat potatoes.",
-      image: "/Joshua_Picture.HEIC",
+      image: "/Joshua_Picture.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/joshua-dong-78b2a92b6/",
         instagram: "https://www.instagram.com/dogeypatato/",
@@ -55,7 +55,7 @@ export function FoundersSection() {
               <CardContent className="p-8 text-center space-y-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-muted">
                   <img
-                    src={founder.image || "/placeholder.svg"}
+                    src={founder.image || "/Joshua_Picture.jpg"}
                     alt={founder.name}
                     className="w-full h-full object-cover"
                   />
