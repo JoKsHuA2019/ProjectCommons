@@ -119,19 +119,19 @@ export function Footer() {
                 <MessageCircle className="h-4 w-4" />
               </button>
               <button
-                onClick={() => openSocialLink("mailto:contact@projectcommons.org")}
+                onClick={() => openSocialLink("mailto:projectcommons.ai@gmail.com")}
                 className="w-8 h-8 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors"
               >
                 <Mail className="h-4 w-4" />
               </button>
             </div>
-            <p className="text-xs text-background/60">contact@projectcommons.org</p>
+            <p className="text-xs text-background/60">projectcommons.ai@gmail.com</p>
           </div>
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-sm text-background/60">
-            © 2024 Project Commons. All rights reserved. Built with ❤️ for the next generation of AI researchers.
+            © 2025 Project Commons. All rights reserved. Built with ❤️ for the next generation of AI researchers.
           </p>
         </div>
       </div>

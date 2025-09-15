@@ -10,11 +10,11 @@ export function FoundersSection() {
       name: "Joshua Dong",
       title: "Co-Founder",
       bio: "Robotics nerd enthusiastic about spreading AI education for the next generation of high school students. Also loves to eat potatoes.",
-      image: "/professional-headshot-of-young-asian-male-ai-resea.jpg",
+      image: "/Joshua_Picture.HEIC",
       social: {
         linkedin: "https://www.linkedin.com/in/joshua-dong-78b2a92b6/",
         instagram: "https://www.instagram.com/dogeypatato/",
-        email: "awesomejoshua2009@gmail.com",
+        email: "awesomejoshua2008@gmail.com",
       },
     },
     {
