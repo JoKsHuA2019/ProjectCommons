@@ -11,7 +11,7 @@ export default function MentorsPage() {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/BlackVersionLogo.png"
                 alt="Project Commons"
                 width={40}
                 height={40}
