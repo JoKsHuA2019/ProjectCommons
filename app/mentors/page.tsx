@@ -11,11 +11,11 @@ export default function MentorsPage() {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/BlackVersionLogo.png"
                 alt="Project Commons"
                 width={40}
                 height={40}
-                className="rounded-full drop-shadow-lg"
+                className="drop-shadow-lg rounded-lg"
               />
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 bg-clip-text text-transparent">
                 Project Commons

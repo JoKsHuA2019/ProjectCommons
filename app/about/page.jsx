@@ -12,11 +12,11 @@ export default function AboutPage() {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/BlackVersionLogo.png"
                 alt="Project Commons"
                 width={40}
                 height={40}
-                className="rounded-full drop-shadow-lg"
+                className="drop-shadow-lg rounded-lg"
               />
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 bg-clip-text text-transparent">
                 Project Commons
@@ -62,7 +62,9 @@ export default function AboutPage() {
                 technology should be shaped by diverse voices and perspectives.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                [This section can be customized with your specific mission statement and goals.]
+                We continuously strive for greatness, because we all deserve it. You. Me. The dogs. The cats. The goats. 
+                Everyone wants a chance to achieve greatness, and we will help you. Gain research experience. Apply to college.
+                Take charge of YOUR own life. Join Project Commons today.
               </p>
             </div>
             <div className="relative">
@@ -97,8 +99,9 @@ export default function AboutPage() {
             </div>
             <div className="bg-gradient-to-r from-blue-500/5 via-purple-500/10 to-red-500/5 rounded-2xl p-8 border border-border/50">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                [This is where you can tell your unique story. Replace this placeholder text with your actual origin
-                story.]
+                We saw all these cool AI Communities -- but they were behind a paywall. Everything so inaccessible, and 
+                just so complicated. That's when we created Project Commons. The ultimate free, one-stop station dedicated to
+                research, greatness, and beyond.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 The idea for Project Commons emerged from recognizing a gap in accessible AI education for high school

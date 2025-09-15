@@ -45,9 +45,9 @@ export function TeamSection() {
     <section id="team" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-balance">Our Officer Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-balance">Our Team of Mentors</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Meet the dedicated student leaders who help make Project Commons an incredible community for AI research and
+            Meet the dedicated leaders who help make Project Commons an incredible community for AI research and
             learning.
           </p>
         </div>
