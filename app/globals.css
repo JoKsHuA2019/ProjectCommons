@@ -7,7 +7,7 @@
   /* Ultra-vibrant color scheme with maximum saturation for POPPING colors */
   --background: oklch(1 0 0); /* Pure white */
   --foreground: oklch(0.15 0 0); /* Very dark text for maximum contrast */
-  --card: oklch(0.95 0.08 240); /* Vibrant blue tint */
+  --card: oklch(81.869% 0.08738 294.735); /* Vibrant blue tint */
   --card-foreground: oklch(0.15 0 0); /* Very dark text */
   --popover: oklch(1 0 0); /* White */
   --popover-foreground: oklch(0.15 0 0); /* Very dark text */
