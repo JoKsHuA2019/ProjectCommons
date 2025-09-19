@@ -7,11 +7,11 @@
   /* Ultra-vibrant color scheme with maximum saturation for POPPING colors */
   --background: oklch(1 0 0); /* Pure white */
   --foreground: oklch(0.15 0 0); /* Very dark text for maximum contrast */
-  --card1: oklch(85.232% 0.09326 306.52);
-  --card2: oklch(80.905% 0.09976 284.584);
-  --card3: oklch(90.461% 0.0719 323.869);
-  --card4: oklch(78.34% 0.11069 276.736);
-  --card5: oklch(88.27% 0.05835 254.848);
+  --card1: oklch(80.275% 0.11605 305.943);
+  --card2: oklch(56% 0.17 245);
+  --card3: oklch(60% 0.16 25);
+  --card4: oklch(70% 0.15 200);
+  --card5: oklch(62% 0.12 335);
   --card-foreground: oklch(0.15 0 0); /* Very dark text */
   --popover: oklch(1 0 0); /* White */
   --popover-foreground: oklch(0.15 0 0); /* Very dark text */
