@@ -54,7 +54,7 @@ export function TeamSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {officers.map((officer, index) => (
-            <Card key={index} className="border-border/50 hover:border-card4/50 transition-colors">
+            <Card key={index} className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card4/50 to-background/50">
               <CardContent className="p-6 text-center space-y-4">
                 <div className="w-20 h-20 mx-auto rounded-full overflow-hidden bg-muted">
                   <img
