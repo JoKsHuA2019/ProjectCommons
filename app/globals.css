@@ -7,7 +7,11 @@
   /* Ultra-vibrant color scheme with maximum saturation for POPPING colors */
   --background: oklch(1 0 0); /* Pure white */
   --foreground: oklch(0.15 0 0); /* Very dark text for maximum contrast */
-  --card: oklch(0.95 0.08 240); /* Vibrant blue tint */
+  --card1: oklch(85.232% 0.09326 306.52);
+  --card2: oklch(80.905% 0.09976 284.584);
+  --card3: oklch(90.461% 0.0719 323.869);
+  --card4: oklch(78.34% 0.11069 276.736);
+  --card5: oklch(88.27% 0.05835 254.848);
   --card-foreground: oklch(0.15 0 0); /* Very dark text */
   --popover: oklch(1 0 0); /* White */
   --popover-foreground: oklch(0.15 0 0); /* Very dark text */
@@ -81,7 +85,11 @@
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-card: var(--card);
+  --color-card1: var(--card1);
+  --color-card2: var(--card2);
+  --color-card3: var(--card3);
+  --color-card4: var(--card4);
+  --color-card5: var(--card5);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
