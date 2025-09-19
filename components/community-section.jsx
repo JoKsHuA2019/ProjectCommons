@@ -36,7 +36,7 @@ export function CommunitySection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
-          <Card className="border-border/50 hover:border-/50 transition-colors">
+          <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card5/50 to-background/50">
             <CardContent className="p-8 text-center space-y-6">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 rounded-xl flex items-center justify-center mx-auto">
                 <Instagram className="h-8 w-8 text-white" />
@@ -57,7 +57,7 @@ export function CommunitySection() {
             </CardContent>
           </Card>
 
-          <Card className="border-border/50 hover:border-secondary/50 transition-colors">
+          <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card5/50 to-background/50">
             <CardContent className="p-8 text-center space-y-6">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 rounded-xl flex items-center justify-center mx-auto">
                 <MessageCircle className="h-8 w-8 text-white" />
