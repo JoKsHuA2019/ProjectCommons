@@ -47,7 +47,11 @@
     "geist": "^1.3.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
+<<<<<<< HEAD
+    "next": "14.2.16",
+=======
     "next": "^14.2.32",
+>>>>>>> 245131a (Add all project files)
     "next-themes": "latest",
     "react": "^18",
     "react-day-picker": "9.8.0",
@@ -71,4 +75,8 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 245131a (Add all project files)
