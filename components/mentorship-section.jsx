@@ -51,7 +51,7 @@ export function MentorshipSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {programs.map((program, index) => (
-            <Card key={index} className="border-border/50 hover:border-secondary/50 transition-colors">
+            <Card key={index} className="border-border/50 hover:border-card2/50 transition-colors">
               <CardContent className="p-6 space-y-4">
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
                   <program.icon className="h-6 w-6 text-secondary" />

@@ -51,7 +51,10 @@ export function FoundersSection() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {founders.map((founder, index) => (
-            <Card key={index} className="border-border/50 hover:border-primary/50 transition-colors">
+            <Card key={index} 
+            style={{ background: "var(--card3)" }}
+            
+            className="border-border/50 hover:border-card3/50 transition-colors">
               <CardContent className="p-8 text-center space-y-6">
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-muted">
                   <img
