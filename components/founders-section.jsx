@@ -21,7 +21,7 @@ export function FoundersSection() {
       name: "Josh Karthikeyan",
       title: "Co-Founder",
       bio: "A passionate student researcher who believes in free mentoring for all students. Also likes chess a lot.",
-      image: "/professional-headshot-of-young-female-tech-leader.jpg",
+      image: "/Josh_PFP.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/josh-karthikeyan-a81722311/",
         instagram: "https://www.instagram.com/k_joosh/",

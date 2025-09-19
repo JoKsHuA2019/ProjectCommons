@@ -48,7 +48,7 @@ export function CommunitySection() {
                 </p>
               </div>
               <button
-                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xs hover:from-blue-700 hover:to-purple-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/50"
+                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-600 text-white shadow-xs hover:from-pink-600 hover:to-purple-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500/50"
                 onClick={openInstagram}
               >
                 <Instagram className="mr-2 h-4 w-4" />
@@ -69,7 +69,7 @@ export function CommunitySection() {
                 </p>
               </div>
               <button
-                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-purple-600 to-red-600 text-white shadow-xs hover:from-purple-700 hover:to-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500/50"
+                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-blurple-500 via-blurple-400 to-blue-500 text-white shadow-xs hover:from-blurple-600 hover:to-blue-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blurple-500/50"
                 onClick={openDiscord}
               >
                 <MessageCircle className="mr-2 h-4 w-4" />

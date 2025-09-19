@@ -40,10 +40,10 @@ export default function MentorsPage() {
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 bg-clip-text text-transparent">
                 Join Our Team
               </span>{" "}
-              of Mentors
+              of Mentors/Officers
             </h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed max-w-3xl mx-auto">
-              Help shape the next generation of AI researchers. We're looking for passionate mentors to guide high
+              Help shape the next generation of AI researchers. We're looking for passionate team members to guide high
               school students on their journey into artificial intelligence.
             </p>
           </div>
@@ -53,7 +53,7 @@ export default function MentorsPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Why We Need You</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Project Commons is growing rapidly, and we need qualified mentors to help teach and guide our students.
+                Project Commons is growing rapidly, and we need qualified team members to help teach and guide our students and our organization.
                 Our mission is to make AI research accessible to every high school student, regardless of their
                 background or experience level.
               </p>
@@ -126,7 +126,7 @@ export default function MentorsPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md text-lg font-medium transition-all bg-blue-600 text-white hover:bg-blue-700 shadow-md hover:shadow-lg transform hover:scale-105 duration-200 border-0"
               >
-                Apply to Mentor
+                Apply for Officer/Mentor
                 <ArrowRight className="h-5 w-5" />
               </a>
               <Link
