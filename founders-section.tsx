@@ -1,0 +1,101 @@
+"use client"
+
+import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Linkedin, Twitter, Mail } from "lucide-react"
+
+export function FoundersSection() {
+  const founders = [
+    {
+      name: "Alex Chen",
+      title: "Co-Founder & CEO",
+      bio: "AI researcher passionate about democratizing AI education for the next generation of high school students.",
+      image: "/professional-headshot-of-young-asian-male-ai-resea.jpg",
+      social: {
+        linkedin: "https://linkedin.com/in/alexchen",
+        twitter: "https://twitter.com/alexchen",
+        email: "alex@projectcommons.org",
+      },
+    },
+    {
+      name: "Sarah Johnson",
+      title: "Co-Founder & CTO",
+      bio: "Tech enthusiast and former engineer who believes in the power of mentorship to unlock human potential in AI.",
+      image: "/professional-headshot-of-young-female-tech-leader.jpg",
+      social: {
+        linkedin: "https://linkedin.com/in/sarahjohnson",
+        twitter: "https://twitter.com/sarahjohnson",
+        email: "sarah@projectcommons.org",
+      },
+    },
+  ]
+
+  const openSocialLink = (url: string) => {
+    if (url.startsWith("mailto:")) {
+      window.location.href = url
+    } else {
+      window.open(url, "_blank")
+    }
+  }
+
+  return (
+    <section id="founders" className="py-20 bg-muted/30">
+      <div className="container mx-auto px-4">
+        <div className="text-center space-y-4 mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-balance">Meet Our Founders</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
+            The visionaries behind Project Commons, dedicated to making AI research accessible to every high school
+            student.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {founders.map((founder, index) => (
+            <Card key={index} className="border-border/50 hover:border-primary/50 transition-colors">
+              <CardContent className="p-8 text-center space-y-6">
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-muted">
+                  <img
+                    src={founder.image || "/placeholder.svg"}
+                    alt={founder.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="text-2xl font-bold">{founder.name}</h3>
+                  <p className="text-primary font-medium">{founder.title}</p>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">{founder.bio}</p>
+                <div className="flex justify-center space-x-4">
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="p-2 bg-transparent"
+                    onClick={() => openSocialLink(founder.social.linkedin)}
+                  >
+                    <Linkedin className="h-4 w-4" />
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="p-2 bg-transparent"
+                    onClick={() => openSocialLink(founder.social.twitter)}
+                  >
+                    <Twitter className="h-4 w-4" />
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="p-2 bg-transparent"
+                    onClick={() => openSocialLink(`mailto:${founder.social.email}`)}
+                  >
+                    <Mail className="h-4 w-4" />
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
