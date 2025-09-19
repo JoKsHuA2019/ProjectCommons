@@ -36,9 +36,11 @@ export function CommunitySection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+          {/* Instagram Card */}
           <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card5/50 to-background/50">
             <CardContent className="p-8 text-center space-y-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 rounded-xl flex items-center justify-center mx-auto">
+              {/* Instagram Icon Gradient */}
+              <div className="w-16 h-16 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 rounded-xl flex items-center justify-center mx-auto">
                 <Instagram className="h-8 w-8 text-white" />
               </div>
               <div className="space-y-2">
@@ -48,7 +50,7 @@ export function CommunitySection() {
                 </p>
               </div>
               <button
-                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-xs hover:from-blue-700 hover:to-purple-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/50"
+                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white shadow-xs hover:from-pink-600 hover:to-yellow-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-500/50"
                 onClick={openInstagram}
               >
                 <Instagram className="mr-2 h-4 w-4" />
@@ -57,9 +59,11 @@ export function CommunitySection() {
             </CardContent>
           </Card>
 
+          {/* Discord Card */}
           <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card5/50 to-background/50">
             <CardContent className="p-8 text-center space-y-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 rounded-xl flex items-center justify-center mx-auto">
+              {/* Discord Icon Gradient */}
+              <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 via-indigo-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto">
                 <MessageCircle className="h-8 w-8 text-white" />
               </div>
               <div className="space-y-2">
@@ -69,7 +73,7 @@ export function CommunitySection() {
                 </p>
               </div>
               <button
-                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-purple-600 to-red-600 text-white shadow-xs hover:from-purple-700 hover:to-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500/50"
+                className="inline-flex items-center justify-center gap-2 h-9 px-4 py-2 rounded-md text-sm font-medium transition-all bg-gradient-to-r from-indigo-600 via-indigo-500 to-blue-600 text-white shadow-xs hover:from-indigo-700 hover:to-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500/50"
                 onClick={openDiscord}
               >
                 <MessageCircle className="mr-2 h-4 w-4" />
