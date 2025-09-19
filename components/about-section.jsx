@@ -53,7 +53,7 @@ export function AboutSection() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card/50 to-background/50"
+              className="border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 bg-gradient-to-br from-card1/50 to-background/50"
             >
               <CardContent className="p-6 text-center space-y-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-600/20 to-purple-600/10 rounded-lg flex items-center justify-center mx-auto border border-blue-600/20">
